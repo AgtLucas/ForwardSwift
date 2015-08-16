@@ -2,9 +2,11 @@
 platform :ios, '8.0'
 use_frameworks!
 
-target 'GoForward' do
 pod 'Alamofire', '2.0.0-beta.1'
 pod 'RealmSwift', '~> 0.94'
+
+target 'GoForward' do
+
 end
 
 target 'GoForwardTests' do
